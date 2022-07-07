@@ -1,15 +1,27 @@
 {
-  "author": "Cristian Marquez",
-  "description": "Proyecto final",
-  "license": "MIT",
-  "name": "coder-proyecto-final",
-  "scripts": {
-    "watch:css": "nodemon -e scss -x \"npm run build:css\"",
-    "build:css": "node-sass --output-style compressed assets/scss/estilos.scss assets/css/estilos.css"
-  },
+  "name": "proyecto-final-coder",
   "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss assets/scss/estilos.scss assets/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgmr1988/cristian-marquez.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgmr1988/cristian-marquez/issues"
+  },
+  "homepage": "https://github.com/cgmr1988/cristian-marquez#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
-    "nodemon": "^2.0.18"
+    "nodemon": "^2.0.19"
   }
 }

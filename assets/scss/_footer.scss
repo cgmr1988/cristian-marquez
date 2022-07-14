@@ -6,3 +6,25 @@ footer{
     bottom: 0%;
     position: fixed;
 }
+
+.button{
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px black;
+}
+
+.instagram{
+    @extend .button;
+    background: yellow;
+}
+.facebook{
+    @extend .button;
+    background: red;
+}
+
+.linkedin{
+    @extend .button;
+background: blue;
+}
